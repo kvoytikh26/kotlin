@@ -14,7 +14,7 @@ fun main(args: Array<String>) {
     val sum = listOf(1, 2, 3).sum()
     println(sum)    // 6
 
-    val parent:Parent = Child()
+    val parent = Child()
     println(parent.foo())
 }
 

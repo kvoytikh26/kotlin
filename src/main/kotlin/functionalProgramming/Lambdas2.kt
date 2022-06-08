@@ -16,14 +16,14 @@ class Lambdas2 {
         Hero("First Mate", 29, Gender.MALE),
         Hero("Sir Stephen", 37, Gender.MALE))
 
-    fun task1() {
+//    fun task1() {
 //        val mapByAge: Map<Int, List<Hero>> =
 //            heroes.groupBy { it.age }
 //        val (age, group) = mapByAge.maxBy { (_, group) ->
 //            group.size
 //        }!!
 //        println(age)
-    }
+//    }
 
     fun task2() {
         val mapByName: Map<String, Hero> =
