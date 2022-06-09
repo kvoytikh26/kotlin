@@ -11,9 +11,9 @@ class ReturnFromLambda {
 //    println(duplicateNonZero(listOf(3, 0, 5))) --> []
 
     fun duplicateNonRightLogic(list: List<Int>): List<Int> {
-        return list.flatMap l@{
+        return list.flatMap {
             //return empty list from lambda
-            if (it == 0) return@l listOf()
+            if (it == 0) return@flatMap listOf()
             listOf(it, it)
         }
     }
